@@ -5,7 +5,7 @@ import JobMatch from "./components/JobMatch";
 import ShortlistResults from "./components/ShortlistResults";
 import "./App.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://candidate-shortlister.onrender.com/api";
 
 export default function App() {
   const [tab, setTab] = useState("candidates");
